@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>npm常用操作</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="node_modules\jquery\dist\jquery.js"></script>
+    </head>
+    <body>
+        <script>
+        $(function(){
+            alert('hello');
+        });
+        </script>
+    <div>
+        <h1>安装与升级</h1>
+        <p>1.在windows下安装<a href="https://nodejs.org/en/">官网下载</a>
+        按步骤安装</p>
+        <p>2.安装完成后在windows下打开cmd输入npm -v查看版本号</p>
+        <p>3.更新输入npm install npm@latest -g(安装的是最新的稳定版本)</p>
+        <h1>常用操作</h1>
+        <p>使用npm下载依赖</p>
+        <p>1.先初始化npm目录需中文 npm init -y  生成package.json</p>
+        <p>2.下载依赖输入 npm i jquery(此例为下载jquery)</p>
+        <p>3.卸载依赖输入 npm uninstall 依赖名称</p>
+        <p>4.更新 npm update 依赖名</p>
+        <p>5.下载指定版本 npm i 依赖@版本</p>
+    </div>
+    </body>
+</html>
